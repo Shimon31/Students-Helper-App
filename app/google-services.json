@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290314239586",
+    "project_id": "student-helper-2fd4c",
+    "storage_bucket": "student-helper-2fd4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290314239586:android:166c9672bb7ea33e225b3b",
+        "android_client_info": {
+          "package_name": "com.shimon.bdresult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290314239586-tcbeljhbll7f2f8tg518snvnb69tna4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZjK7Py86B7-QYYzpGZ9e67eZqEiqrJlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290314239586-tcbeljhbll7f2f8tg518snvnb69tna4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

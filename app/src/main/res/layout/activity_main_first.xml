@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient2"
+    tools:context=".MainActivity_First">
+
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/student" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="serif-monospace"
+        android:text="Students Helper"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="#CAD5E2"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:onClick="bdResultBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BD Result"
+        android:textSize="25sp"/>
+
+    <Button
+        android:onClick="BMIcalculator"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="25sp"/>
+
+    <Button
+        android:onClick="Calculator"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="25sp"/>
+    <Button
+        android:onClick="quiz"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:textSize="25sp"/>
+
+</LinearLayout>

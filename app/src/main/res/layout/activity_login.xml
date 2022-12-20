@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#5DA3FA"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Name"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"/>
+    <EditText
+        android:id="@+id/SUEmailET"
+        android:background="@color/white"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Your Email"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"/>
+    <EditText
+        android:id="@+id/SUNPass"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"/>
+    <EditText
+        android:id="@+id/SUCPass"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"/>
+    <AutoCompleteTextView
+        android:id="@+id/BloodGroup"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50dp"
+        android:hint="Blood Group"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_baseline_bloodtype_24"
+        android:drawablePadding="10dp"
+        android:inputType="text"/>
+    <CheckBox
+        android:id="@+id/checkboxID"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I accept the terms and condition."
+        android:layout_margin="10dp"/>
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold"/>
+
+</LinearLayout>

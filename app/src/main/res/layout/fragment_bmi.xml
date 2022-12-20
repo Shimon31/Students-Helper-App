@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03203C"
+    android:layout_height="match_parent"
+    tools:context=".fragment_bmi">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bmi"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/heightET"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:hint="Height"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/weightET"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:hint="Weight"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/bmiButtton"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#03C6C7"
+            android:text="Show BMI"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/displayTV"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="20dp"
+            android:background="#42D248"
+            android:text="Display"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</FrameLayout>
